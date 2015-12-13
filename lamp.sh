@@ -16,6 +16,10 @@ sudo mysql_install_db
 sudo mysql_secure_installation
 sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
 
+sudo apt-get update
+sudo apt-get install phpmyadmin
+sudo php5enmod mcrypt
+
 sudo service apache2 restart
 sudo apt-get install php5-cli
 

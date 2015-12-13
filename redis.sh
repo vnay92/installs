@@ -2,6 +2,7 @@
 cwd=$(pwd)
 # clear
 cd
+
 echo "Getting System Dependencies"
 sudo apt-get update
 sudo apt-get install build-essential libssl-dev
@@ -9,7 +10,6 @@ sudo apt-get install build-essential libssl-dev
 echo "Installing Redis"
 sudo apt-get install tcl8.5
 
-cd ~
 wget http://download.redis.io/releases/redis-stable.tar.gz
 tar xzf redis-stable.tar.gz
 cd redis-stable
