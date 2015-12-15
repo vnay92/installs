@@ -1,6 +1,6 @@
 # Technologies Installer
 
-These scripts install the stuff one might require for their development Endavours.
+These scripts install the stuff you require for their development Endavours.
 
 ## Install NodeJS
 
@@ -25,3 +25,7 @@ Then: `sh redis.sh`
 `cd path\to\installer`
 
 Then: `sh lamp.sh`
+
+## Install Django
+
+Django is a bit more complex and there's another awesome [REPOSITORY](https://github.com/yomr/start-my-django "Start My Django")
