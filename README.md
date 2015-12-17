@@ -2,6 +2,10 @@
 
 These scripts install the stuff you require for their development Endavours.
 
+## Install Through a central file
+`cd path\to\installer`
+Then:  `sh install.sh <name of bundle>`
+
 ## Install NodeJS
 
 `cd path\to\installer`
